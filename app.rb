@@ -19,8 +19,8 @@ class App < Sinatra::Base
   
   end
   
-  get "/multiply/:num1/:num2"
-  
+  get "/multiply/:num1/:num2" do
+  "hello"
   end   
 
 end
